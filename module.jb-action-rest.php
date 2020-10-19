@@ -3,15 +3,16 @@
 /**
  * @copyright   Copyright (C) 2019-2020 Jeffrey Bostoen
  * @license     https://www.gnu.org/licenses/gpl-3.0.en.html
- * @version     2020-01-27 19:00:07
+ * @version     2020-10-19 14:38:41
  *
  * iTop module definition file
  */
 
 SetupWebPage::AddModule(
         __FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-        'jb-action-rest/2.6.200127',
-        array(
+        'jb-action-rest/2.6.201019',
+        
+		[
                 // Identification
                 //
                 'label' => 'Feature: add REST action, executed on trigger',
@@ -19,27 +20,27 @@ SetupWebPage::AddModule(
 
                 // Setup
                 //
-                'dependencies' => array( 
-                ),
+                'dependencies' => [
+                ],
                 'mandatory' => false,
                 'visible' => true,
 
                 // Components
                 //
-                'datamodel' => array(
-                        'model.jb-action-rest.php',
-						'classes/ActionRest.class.inc.php',
-						'classes/EventNotification.class.inc.php'
-                ),
-                'webservice' => array(
+                'datamodel' => [
+					'model.jb-action-rest.php',
+					'app/core/action.class.inc.php',
+					'app/core/event.class.inc.php'
+                ],
+                'webservice' => [
 
-                ),
-                'data.struct' => array(
+                ],
+                'data.struct' => ,[
                         // add your 'structure' definition XML files here,
-                ),
-                'data.sample' => array(
+                ],
+                'data.sample' => [
                         // add your sample data XML files here,
-                ),
+                ],
 
                 // Documentation
                 //
@@ -48,9 +49,9 @@ SetupWebPage::AddModule(
 
                 // Default settings
                 //
-                'settings' => array(
+                'settings' => [
                         // Module specific settings go here, if any
-                ),
-        )
+                ],
+        ]
 );
 

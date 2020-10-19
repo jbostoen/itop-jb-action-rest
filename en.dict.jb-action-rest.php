@@ -3,18 +3,13 @@
  * @copyright   Copyright (C) 2019-2020 Jeffrey Bostoen
  * @license     https://www.gnu.org/licenses/gpl-3.0.en.html
  * @author		jbostoen
- * @version     2020-01-27 19:00:07
+ * @version     2020-10-19 14:38:41
  *
  * Translations for jb-action-rest
  */
 
 Dict::Add('EN US', 'English', 'English', array(
 
-	//	'Class:SomeClass' => 'Class name',
-	//	'Class:SomeClass+' => 'More info on class name',
-	//	'Class:SomeClass/Attribute:some_attribute' => 'your translation for the label',
-    //	'Class:SomeClass/Attribute:some_attribute/Value:some_value' => 'your translation for a value',
-    //	'Class:SomeClass/Attribute:some_attribute/Value:some_value+' => 'your translation for more info on the value',
 	'Class:ActionRest' => 'REST Action',
 	'Class:ActionRest+' => 'A REST action which can be executed after a trigger',
 	'Class:ActionRest/Attribute:name' => 'Name',
@@ -32,7 +27,8 @@ Dict::Add('EN US', 'English', 'English', array(
 	
 	'Class:EventNotificationRest' => 'REST Event',
 	'Class:EventNotificationRest+' => 'Trace of a REST Event',
-	'Class:EventNotificationRest/date' => 'Date',
+	'Class:EventNotificationRest/date' => 'Timestamp',
+	'Class:EventNotificationRest/date+' => 'Date and time on which the changes happened',
 	'Class:EventNotificationRest/message' => 'Message',
 	'Class:EventNotificationRest/userinfo' => 'User info',
 	'Class:EventNotificationRest/action_id' => 'Action ID',

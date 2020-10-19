@@ -3,24 +3,13 @@
  * @copyright   Copyright (C) 2019-2020 Jeffrey Bostoen
  * @license     https://www.gnu.org/licenses/gpl-3.0.en.html
  * @author		jbostoen
- * @version     2020-01-27 19:00:07
+ * @version     2020-10-19 14:38:41
  *
  * Translations for jb-action-rest
  */
 
 Dict::Add('NL NL', 'Dutch', 'Dutch', array(
 
-	//	'Class:SomeClass' => 'Class name',
-	//	'Class:SomeClass+' => 'More info on class name',
-	//	'Class:SomeClass/Attribute:some_attribute' => 'your translation for the label',
-    //	'Class:SomeClass/Attribute:some_attribute/Value:some_value' => 'your translation for a value',
-    //	'Class:SomeClass/Attribute:some_attribute/Value:some_value+' => 'your translation for more info on the value',
-	
-	//	'Class:SomeClass' => 'Class name',
-	//	'Class:SomeClass+' => 'More info on class name',
-	//	'Class:SomeClass/Attribute:some_attribute' => 'your translation for the label',
-    //	'Class:SomeClass/Attribute:some_attribute/Value:some_value' => 'your translation for a value',
-    //	'Class:SomeClass/Attribute:some_attribute/Value:some_value+' => 'your translation for more info on the value',
 	'Class:ActionRest' => 'REST-actie',
 	'Class:ActionRest+' => 'De REST-actie zal uitgevoerd worden na een Trigger.',
 	'Class:ActionRest/Attribute:name' => 'Naam',
@@ -38,8 +27,8 @@ Dict::Add('NL NL', 'Dutch', 'Dutch', array(
 	
 	'Class:EventNotificationRest' => 'REST Event',
 	'Class:EventNotificationRest+' => 'Trace van een REST Event',
-	'Class:EventNotificationRest/date' => 'Datum',
-	'Class:Event/EventNotificationRest:date+' => 'Datum en tijdstip waarop de veranderingen zijn vastgelegd',
+	'Class:EventNotificationRest/date' => 'Tijdstip',
+	'Class:EventNotificationRest:date+' => 'Datum en tijdstip waarop de veranderingen zijn vastgelegd',
 	'Class:EventNotificationRest/message' => 'Bericht',
 	'Class:EventNotificationRest/userinfo' => 'Gebruikersinfo',
 	'Class:EventNotificationRest/action_id' => 'ID Actie',
