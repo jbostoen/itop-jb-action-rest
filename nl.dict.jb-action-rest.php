@@ -3,7 +3,7 @@
  * @copyright   Copyright (C) 2019-2020 Jeffrey Bostoen
  * @license     https://www.gnu.org/licenses/gpl-3.0.en.html
  * @author		jbostoen
- * @version     2020-10-19 14:38:41
+ * @version     2020-10-23 14:42:38
  *
  * Translations for jb-action-rest
  */

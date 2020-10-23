@@ -5,8 +5,8 @@
 	<author><![CDATA[jbostoen]]></author>
 	<label><![CDATA[Feature: add REST action, executed on trigger]]></label>
 	<description><![CDATA[Adds a REST action, to which you can link a trigger]]></description>
-	<version>2.6.201019</version>
-	<release_date>2020-10-19</release_date>
+	<version>2.6.201023</version>
+	<release_date>2020-10-23</release_date>
 	<version_description><![CDATA[]]></version_description>
 	<itop_version_min>2.6.0</itop_version_min>
 	<status>stable</status>

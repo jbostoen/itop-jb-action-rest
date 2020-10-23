@@ -116,7 +116,7 @@
 						
 						IssueLog::Error('Failed to process REST call ' . $oLog->GetKey() .' - reason: '.$e->getMessage().'\nTrace:\n'.$e->getTraceAsString());
 
-						$oLog->Set('message', 'Error: more details in the log for email ''.$oLog->GetKey().''');
+						$oLog->Set('message', 'Error: more details in the log for email "'.$oLog->GetKey().'"');
 						$oLog->DBUpdate();
 						
 					}
