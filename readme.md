@@ -5,8 +5,13 @@ Copyright (C) 2019-2020 Jeffrey Bostoen
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/jbostoen)
 🍻 ☕
 
+Need assistance with iTop or one of its extensions?  
+Need custom development?  
+Please get in touch to discuss the terms: **jbostoen.itop@outlook.com**
+
 ## What?
-Adds a REST action, to which you can link a trigger
+Adds a REST action, to which you can link a trigger.
+A conceptual extension. Get in touch to discuss integrations with other software.
 
 ## Cookbook
 
