@@ -10,6 +10,13 @@ Need assistance with iTop or one of its extensions?
 Need custom development?  
 Please get in touch to discuss the terms: **info@jeffreybostoen.be** / https://jeffreybostoen.be
 
+## Deprecated
+
+Mind that this is no longer being developed since Combodo now has its own Webhook integration available.
+
+* [GitHub: Combodo/combodo-webhook-integration](https://github.com/Combodo/combodo-webhook-integration)
+* [iTop Hub: Webhook integration](https://store.itophub.io/en_US/products/combodo-webhook-integration)
+
 
 ## What?
 
